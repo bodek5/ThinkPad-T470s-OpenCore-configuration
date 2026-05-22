@@ -37,6 +37,8 @@ Nope, my ThinkPad started all OS without graphicts patching. You only need to in
 
 ## Thanks to:
 * [Dortania](https://github.com/dortania/) for OpenCore
-* [acidanthera](https://github.com/acidanthera/) for Lilu.kext and WhateverGreen.kext
+* [acidanthera](https://github.com/acidanthera/) for Lilu.kext, WhateverGreen.kext and VirtualSMC.
 * [corpnewt](https://github.com/corpnewt/) for ProperTree
 * [openintelwireless](https://github.com/openintelwireless/) for Intel Wi-Fi
+* [MultimediaLucario](https://github.com/MultimediaLucario/) for BATC.aml (from T470) (Dual-Battery aml)
+* [zhen-zen](github.com/zhen-zen/) for YogaSMC
