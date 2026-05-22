@@ -1,5 +1,5 @@
 # ThinkPad-T470s OpenCore configuration
-ThinkPad T470s OpenCore EFI, Monterey -> Tahoe
+ThinkPad T470s OpenCore EFI, Monterey --> Tahoe
 
 ## What works?
 * Graphicts acceleration
@@ -7,6 +7,7 @@ ThinkPad T470s OpenCore EFI, Monterey -> Tahoe
 * Keyboard & TouchPad & TrackPad
 * Sleep option
 * Dual-battery
+* Bluetooth (sonoma and lower)
 * USB ports
 * Brightness & Volume keys
 * ThunderBolt
@@ -16,14 +17,16 @@ ThinkPad T470s OpenCore EFI, Monterey -> Tahoe
 
 ## Not Working:
 * FingerPrint scanner
-* Bluetooth (fixable)
 * tell me more 
+
+## NOTE FOR TAHOE
+If you run Tahoe on T470s, you need to know that speakers, camera, microphone and bluetooth do not work unless you patch them yourself, the battery will be drained and the performance will be weaker, after an hour of running Tahoe, the laptop will speed up a bit and animations will stop stuttering because indexing will finish, but the overall performance and battery are much worse than Sequoia because of the liquid glass. On my T470s fans always on..., also wi-fi looks like be slower.
 
 ## Working versions:
 * Monterey - Working bluetooth, Wi-fi, speakers and other!
 * Ventura - Working bluetooth, Wifi speakers and other!
-* Sequoia - Working Wi-fi, speakers and other!
-* Tahoe - Working Wi-fi, full working sleep option, trying to fix sound!
+* Sequoia - Working Wi-fi, speakers and other! I trying to fix bluetooth.
+* Tahoe - Working Wi-fi, full working sleep option, not working cam,mic,speakers,bt, wifi slower.
 
 ## Untested:
 * Sonoma - I skipped this verion by update from ventura to Sequoia, but it should work
