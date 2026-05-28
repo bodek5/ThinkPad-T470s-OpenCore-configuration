@@ -23,7 +23,7 @@ ThinkPad T470s OpenCore EFI, Monterey --> Tahoe
 I recommend to install Ventura over other all, its sweet spot, all works nativelly, runs fast, has new layout, battery works fine, and its stable + i work on ventura more than others (so i patch bugs more often)
 
 ## NOTE FOR TAHOE
-If you run Tahoe on T470s, you need to know that speakers ,camera, microphone and bluetooth do not work unless you patch them yourself (you can patch speakers by voodooHDA), the battery will be drained and the performance will be weaker, after an hour of running Tahoe, the laptop will speed up a bit and animations will stop stuttering because indexing will finish, but the overall performance and battery are much worse than Sequoia because of the liquid glass. On my T470s fans always on..., also wi-fi looks like be slower.
+If you run Tahoe on T470s, you need to know that speakers ,camera, microphone and bluetooth do not work unless you patch them yourself (you can patch speakers by voodooHDA, but volume control work bad), the battery will be drained and the performance will be weaker, after an hour of running Tahoe, the laptop will speed up a bit and animations will stop stuttering because indexing will finish, but the overall performance and battery are much worse than Sequoia because of the liquid glass. On my T470s fans always on..., also wi-fi looks like be slower.
 
 ## Working versions:
 * Monterey - Working Wi-fi, speakers and other!
@@ -45,3 +45,4 @@ Nope, my ThinkPad started all OS without graphicts patching. You only need to in
 * [openintelwireless](https://github.com/openintelwireless/) for Intel Wi-Fi
 * [MultimediaLucario](https://github.com/MultimediaLucario/) for BATC.aml (from T470) (Dual-Battery aml)
 * [zhen-zen](github.com/zhen-zen/) for YogaSMC
+* [CloverHackyColor](https://github.com/CloverHackyColor/)
