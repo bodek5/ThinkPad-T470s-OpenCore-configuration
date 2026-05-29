@@ -4,6 +4,7 @@ ThinkPad T470s OpenCore EFI, Monterey --> Tahoe
 ## What works?
 * Graphicts acceleration
 * Wifi
+* Bluetooth (on Monterey and Ventura)
 * Keyboard & TouchPad & TrackPad
 * Sleep option
 * Dual-battery
