@@ -17,12 +17,25 @@ ThinkPad T470s OpenCore EFI, Monterey --> Tahoe
 * Microphone
 * and some more
 
+## HOW TO FIX NATIVE WI-FI FOR SEQUOIA
+* Mount your EFI partition
+* Open config.plist on ProperTree
+* Search #PciRoot(0x0)/Pci(0x1C,0x2)/Pci(0x0,0x0) and delete hashtag (#)
+* Reboot
+* Open OpenCore Legacy Pather
+* patch network card
+* reboot
+* add hashtag back to PciRoot(0x0)/Pci(0x1C,0x2)/Pci(0x0,0x0)
+* reboot
+* if not working - reset nvram and reboot
+* Now your wifi will work nativelly, its better for battery life and apps compatibility
+
 ## Not Working:
 * FingerPrint scanner
 * tell me more 
 
 ## RECOMMECTED
-I recommend to install Ventura over other all, its sweet spot, all works nativelly, runs fast, has new layout, battery works fine, and its stable + i work on ventura more than others (so i patch bugs more often)
+I recommend to install Sequoia over other all, runs fast (need to turn off spotlight and siri), has new layout, battery works fine, and its stable + i work on sequoia more than others (so i patch bugs more often)
 
 ## NOTE FOR TAHOE
 If you run Tahoe on T470s, you need to know that speakers ,camera, microphone and bluetooth do not work unless you patch them yourself (you can patch speakers by voodooHDA, but volume control work bad), the battery will be drained and the performance will be weaker, after an hour of running Tahoe, the laptop will speed up a bit and animations will stop stuttering because indexing will finish, but the overall performance and battery are much worse than Sequoia because of the liquid glass. On my T470s fans always on..., also wi-fi looks like be slower.
